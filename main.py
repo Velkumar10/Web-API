@@ -22,4 +22,4 @@ def startApi():
     return Response(xmlResponse, mimetype='application/xml')
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True,port=7001)
